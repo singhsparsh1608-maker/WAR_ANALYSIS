@@ -21,15 +21,15 @@ st.set_page_config(
 def load_data():
 
     df = pd.read_csv(
-        r"/Users/sparshsingh/Documents/GitHub/WAR ANALYSIS/DATA/PYTHON/CREA_of_PYHTON_SQL_READY.csv"
+        r"DATA/PYTHON/CREA_of_PYHTON_SQL_READY.csv"
     )
 
     sql1 = pd.read_csv(
-        r"/Users/sparshsingh/Documents/GitHub/WAR ANALYSIS/DATA/SQL/SQL_RES.11.xml.csv"
+        r"DATA/SQL/SQL_RES.11.xml.csv"
     )
 
     sql2 = pd.read_csv(
-        r"/Users/sparshsingh/Documents/GitHub/WAR ANALYSIS/DATA/SQL/SQL_RES.22.xml.csv"
+        r"DATA/SQL/SQL_RES.22.xml.csv"
     )
 
     df.columns = [c.lower() for c in df.columns]
